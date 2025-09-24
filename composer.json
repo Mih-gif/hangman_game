@@ -11,9 +11,10 @@
     "autoload": {
         "psr-4": {
             "mihgif\\hangman\\": "src/"
+        }
         },
     "bin": [
-        "bin/hangman.php"
+        "bin/hangman"
     ],
     "scripts": {
         "phpcs": "phpcs --standard=PSR12 src bin",
@@ -30,5 +31,6 @@
     ],
     "minimum-stability": "stable"
 }
+
 
 
