@@ -12,12 +12,6 @@
         "psr-4": {
             "mihgif\\hangman\\": "src/"
         },
-        "files": [
-            "src/Controller.php",
-            "src/View.php",
-            "src/Model.php"
-        ]
-    },
     "bin": [
         "bin/hangman.php"
     ],
@@ -36,4 +30,5 @@
     ],
     "minimum-stability": "stable"
 }
+
 
