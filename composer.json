@@ -1,5 +1,5 @@
 {
-    "name": "mih-gif/hangman",
+    "name": "mih_gif/hangman",
     "require": {
         "wp-cli/php-cli-tools": "^0.12.5"
     },
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mih-gif\\hangman\\": "src/"
+            "mih_gif\\hangman\\": "src/"
         },
         "files": [
             "src/Controller.php",
@@ -24,5 +24,6 @@
         "phpcs-fix": "phpcbf --standard=PSR12 src bin"
     }
 }
+
 
 
